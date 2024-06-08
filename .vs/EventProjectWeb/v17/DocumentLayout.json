@@ -3,8 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\controller\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\controller\\citycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\controller\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\controller\\artistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\artist\\updateartistrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\artist\\updateartistrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\city\\updatecityrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\city\\updatecityrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\model\\orm\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\orm\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\controller\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\controller\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\model\\orm\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\orm\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\city\\createcityrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\city\\createcityrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\city\\getcityresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\city\\getcityresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\city\\getallcityresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\city\\getallcityresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\artist\\getartistresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\artist\\getartistresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\artist\\createartistrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,28 +55,8 @@
       "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\event\\createeventrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\artist\\updateartistrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\artist\\updateartistrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\controller\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\controller\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\model\\orm\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\orm\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\model\\orm\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\orm\\artist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\artist\\getallartistresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\artist\\getallartistresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\dto\\artist\\getartistresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\artist\\getartistresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\\u0130stanbulegitimakademiproje1\\eventprojectweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -102,7 +122,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\BaseEntity.cs",
+              "RelativeToolTip": "EventProjectWeb\\Model\\ORM\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:49:53.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CityController.cs",
+              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\CityController.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\CityController.cs",
+              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\CityController.cs*",
+              "RelativeToolTip": "EventProjectWeb\\Controller\\CityController.cs*",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAowFMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:32:58.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "UpdateCityRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\City\\UpdateCityRequestDTO.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\City\\UpdateCityRequestDTO.cs",
+              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\City\\UpdateCityRequestDTO.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\City\\UpdateCityRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T11:03:33.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UpdateArtistRequestDTO.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\UpdateArtistRequestDTO.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Artist\\UpdateArtistRequestDTO.cs",
@@ -115,52 +174,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ArtistController.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\ArtistController.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\ArtistController.cs",
               "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\ArtistController.cs*",
               "RelativeToolTip": "EventProjectWeb\\Controller\\ArtistController.cs*",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAswGUAAAAFAAAA",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAowFEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T09:12:00.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateEventRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
-              "RelativeToolTip": "EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T07:32:24.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateArtistRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\CreateArtistRequestDTO.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Artist\\CreateArtistRequestDTO.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\CreateArtistRequestDTO.cs",
-              "RelativeToolTip": "EventProjectWeb\\DTO\\Artist\\CreateArtistRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T09:29:29.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "EventController.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\EventController.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\EventController.cs",
               "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\EventController.cs",
               "RelativeToolTip": "EventProjectWeb\\Controller\\EventController.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAowGwAAAAAAAAA",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAowF8AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T07:32:24.501Z",
               "EditorCaption": ""
@@ -180,33 +213,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\BaseEntity.cs",
-              "RelativeToolTip": "EventProjectWeb\\Model\\ORM\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAwAAAA",
+              "DocumentIndex": 8,
+              "Title": "GetCityResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\City\\GetCityResponseDTO.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\City\\GetCityResponseDTO.cs",
+              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\City\\GetCityResponseDTO.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\City\\GetCityResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T09:49:53.433Z",
+              "WhenOpened": "2024-06-08T10:45:19.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetAllCityResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\City\\GetAllCityResponseDTO.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\City\\GetAllCityResponseDTO.cs",
+              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\City\\GetAllCityResponseDTO.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\City\\GetAllCityResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T10:38:08.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "GetAllArtistResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\GetAllArtistResponseDTO.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Artist\\GetAllArtistResponseDTO.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\GetAllArtistResponseDTO.cs",
-              "RelativeToolTip": "EventProjectWeb\\DTO\\Artist\\GetAllArtistResponseDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Title": "CreateCityRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\City\\CreateCityRequestDTO.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\City\\CreateCityRequestDTO.cs",
+              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\City\\CreateCityRequestDTO.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\City\\CreateCityRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-08T09:12:44.219Z",
+              "WhenOpened": "2024-06-08T10:52:49.783Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "GetArtistResponseDTO.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\GetArtistResponseDTO.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Artist\\GetArtistResponseDTO.cs",
@@ -220,6 +266,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "CreateEventRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
+              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T07:32:24.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateArtistRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\CreateArtistRequestDTO.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Artist\\CreateArtistRequestDTO.cs",
+              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\CreateArtistRequestDTO.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\Artist\\CreateArtistRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:29:29.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GetAllArtistResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\GetAllArtistResponseDTO.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Artist\\GetAllArtistResponseDTO.cs",
+              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Artist\\GetAllArtistResponseDTO.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\Artist\\GetAllArtistResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T09:12:44.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Vanue.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\Vanue.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\Vanue.cs",
@@ -232,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 19,
               "Title": "UpdateRequestEventDto.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Event\\UpdateRequestEventDto.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Event\\UpdateRequestEventDto.cs",
@@ -245,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\appsettings.Development.json",
               "RelativeDocumentMoniker": "EventProjectWeb\\appsettings.Development.json",
@@ -258,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Program.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\Program.cs",
@@ -271,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\appsettings.json",
               "RelativeDocumentMoniker": "EventProjectWeb\\appsettings.json",
@@ -284,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "EventProjectContext.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\EventProjectContext.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\EventProjectContext.cs",
@@ -297,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\Event.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\Event.cs",
@@ -309,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "20240607130715_DatabaseCreated.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Migrations\\20240607130715_DatabaseCreated.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\Migrations\\20240607130715_DatabaseCreated.cs",
@@ -321,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Ticket.cs",
               "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\\u0130stanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\Ticket.cs",
               "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\Ticket.cs",

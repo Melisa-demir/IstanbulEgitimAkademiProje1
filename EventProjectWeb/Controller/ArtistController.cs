@@ -20,7 +20,7 @@ namespace EventProjectWeb.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            List<GetAllArtistResponseDTO> artist = _db.Artists.Where(x=>x.IsDeleted==false).Select(x => new GetAllArtistResponseDTO
+            List<GetAllArtistResponseDTO> artist = _db.Artists.Where(x => x.IsDeleted == false).Select(x => new GetAllArtistResponseDTO
             {
                 Id = x.Id,
                 ArtistName = x.ArtistName,
@@ -33,7 +33,7 @@ namespace EventProjectWeb.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var entity = _db.Artists.FirstOrDefault(x => x.Id == id && x.IsDeleted==false);
+            var entity = _db.Artists.FirstOrDefault(x => x.Id == id && x.IsDeleted == false);
             if (entity == null)
             {
                 return NotFound();
@@ -64,23 +64,22 @@ namespace EventProjectWeb.Controllers
             return Ok();
         }
 
-    
-    [HttpDelete("{id}")]
-    public IActionResult Delete(int id)
-    {
-        var entity = _db.Artists.FirstOrDefault(x => x.Id == id);
-        if (entity==null)
+
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
         {
-            return NotFound();
+            var entity = _db.Artists.FirstOrDefault(x => x.Id == id);
+            if (entity == null)
+            {
+                return NotFound();
+            }
+            else
+            {
+                entity.IsDeleted = true;
+                _db.SaveChanges();
+                return Ok();
+            }
         }
-        else
-        {
-            entity.IsDeleted = true;
-            entity.DeleteDate = DateTime.Now;
-            _db.SaveChanges();
-            return Ok();
-        }
-    }
         [HttpPut("{id}")]
         public IActionResult Put(int id, UpdateArtistRequestDTO model)
         {
@@ -98,6 +97,6 @@ namespace EventProjectWeb.Controllers
                 return Ok();
             }
         }
-}
     }
+}
 
