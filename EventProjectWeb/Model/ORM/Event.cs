@@ -6,7 +6,7 @@ namespace EventProjectWeb.Model.ORM
     {
         public string Name { get; set; }
         public string DetailedDescription { get; set; }
-        public string Address { get; set; }
+        public string? Address { get; set; }
         public string GoogleMapLink { get; set; }
         public int CityId { get; set; }
         [ForeignKey("CityId")]

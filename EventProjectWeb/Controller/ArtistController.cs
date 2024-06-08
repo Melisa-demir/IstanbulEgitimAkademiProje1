@@ -63,8 +63,6 @@ namespace EventProjectWeb.Controllers
             _db.SaveChanges();
             return Ok();
         }
-
-
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
