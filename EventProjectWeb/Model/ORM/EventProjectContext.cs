@@ -1,13 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Net.Sockets;
 
 namespace EventProjectWeb.Model.ORM
 {
-    public class EventProjectContext :DbContext
+    public class EventProjectContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public EventProjectContext(DbContextOptions<EventProjectContext> options) : base(options)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-2KEA18U\\SQLEXPRESS;Database = AkademiEvent;Trusted_Connection = True;trustservercertificate=true");
+
+
         }
         public DbSet<Category> Categories { get; set; }
 
@@ -22,7 +24,5 @@ namespace EventProjectWeb.Model.ORM
         public DbSet<Event> Events { get; set; }
 
         public DbSet<Vanue> Vanues { get; set; }
-
-
     }
 }

@@ -1,5 +1,6 @@
 using EventProjectWeb.Model.ORM;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,10 +13,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<EventProjectContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-}
-
-);
-
+});
 
 var app = builder.Build();
 
@@ -33,3 +31,4 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+//Program.cs
