@@ -23,6 +23,6 @@ namespace EventProjectWeb.Model.ORM
 
         public DbSet<Event> Events { get; set; }
 
-        public DbSet<Vanue> Vanues { get; set; }
+        public DbSet<Venue> Venues { get; set; }
     }
 }

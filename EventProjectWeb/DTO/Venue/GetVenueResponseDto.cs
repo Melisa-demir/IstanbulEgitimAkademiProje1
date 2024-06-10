@@ -1,6 +1,6 @@
-﻿namespace EventProjectWeb.Model.ORM
+﻿namespace EventProjectWeb.DTO.Venue
 {
-    public class Vanue :BaseEntity
+    public class GetVenueResponseDto
     {
         public string VenueName { get; set; }
         public string Location { get; set; }
