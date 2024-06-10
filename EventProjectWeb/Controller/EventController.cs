@@ -67,7 +67,7 @@ namespace EventProjectWeb.Controllers
             return Ok(model);
         }
 
-        // delete category
+        
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
@@ -88,7 +88,7 @@ namespace EventProjectWeb.Controllers
 
 
         [HttpPut("{id}")] // api/event/{id}
-        public IActionResult Update(int id, UpdateRequestEventDto model)
+        public IActionResult Update(int id, UpdateEventRequestDto model)
         {
             var _event = _db.Events.FirstOrDefault(x => x.Id == id && x.IsDeleted == false);
 

@@ -1,6 +1,6 @@
 ﻿namespace EventProjectWeb.DTO.Event
 {
-    public class UpdateRequestEventDto
+    public class UpdateEventRequestDto
     {
         public string Name { get; set; }
     }
