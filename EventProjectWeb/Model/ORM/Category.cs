@@ -8,7 +8,7 @@ namespace EventProjectWeb.Model.ORM
         public string Name { get; set; } = String.Empty;
 
 
-        public int EventId { get; set; }
+        public int? EventId { get; set; }
         [ForeignKey("EventId")]
 
         public Event Event { get; set; }
