@@ -1,4 +1,5 @@
 using EventProjectWeb.DTO.Artist;
+using EventProjectWeb.DTO.Category;
 using EventProjectWeb.DTO.City;
 using EventProjectWeb.DTO.Customer;
 using EventProjectWeb.Model.ORM;
@@ -26,7 +27,9 @@ builder.Services.AddValidatorsFromAssemblyContaining<UpdateArtistRequestDTO>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCityRequestDTO>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateCityRequestDTO>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCustomerRequestDTO>();
-builder.Services.AddValidatorsFromAssemblyContaining<UpdateCustomerRequestDTO>();   
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateCustomerRequestDTO>();  
+builder.Services.AddValidatorsFromAssemblyContaining<CreateCategoryRequestDTO>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateCategoryRequestDto>();
 
 var app = builder.Build();
 
