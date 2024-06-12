@@ -1,19 +1,26 @@
+using EventProjectWeb.DTO.Artist;
 using EventProjectWeb.Model.ORM;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 
-builder.Services.AddControllers();
+
+builder.Services.AddControllers().AddFluentValidation();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
 builder.Services.AddDbContext<EventProjectContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddValidatorsFromAssemblyContaining<CreateArtistRequestDTO>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateArtistRequestDTO>();
 
 var app = builder.Build();
 
@@ -31,4 +38,3 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
-//Program.cs
