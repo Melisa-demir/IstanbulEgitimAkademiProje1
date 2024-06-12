@@ -8,8 +8,8 @@ namespace EventProjectWeb.Model.Validations.Artist
         public UpdateArtistRequestValidator()
         {
             RuleFor(x => x.ArtistName)
-                .NotEmpty().WithMessage("The ArtistName field cannot be empty.")
-                .MinimumLength(10).WithMessage("Artist name must consist of at least 10 characters.");
+                NotEmpty().WithMessage("The ArtistName field cannot be empty.")
+                .MaximumLength(50).WithMessage("ArtistName must be at most 50 characters.");
         }
     }
 }

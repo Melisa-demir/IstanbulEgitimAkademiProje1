@@ -21,6 +21,7 @@ builder.Services.AddDbContext<EventProjectContext>(options =>
 
 builder.Services.AddValidatorsFromAssemblyContaining<CreateArtistRequestDTO>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateArtistRequestDTO>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateArtistRequestDTO>();
 
 var app = builder.Build();
 
