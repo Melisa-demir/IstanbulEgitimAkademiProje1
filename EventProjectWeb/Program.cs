@@ -26,6 +26,7 @@ builder.Services.AddValidatorsFromAssemblyContaining<UpdateArtistRequestDTO>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCityRequestDTO>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateCityRequestDTO>();
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCustomerRequestDTO>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateCustomerRequestDTO>();   
 
 var app = builder.Build();
 
