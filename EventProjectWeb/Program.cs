@@ -1,4 +1,6 @@
 using EventProjectWeb.DTO.Artist;
+using EventProjectWeb.DTO.City;
+using EventProjectWeb.DTO.Customer;
 using EventProjectWeb.Model.ORM;
 using FluentValidation;
 using FluentValidation.AspNetCore;
@@ -21,7 +23,9 @@ builder.Services.AddDbContext<EventProjectContext>(options =>
 
 builder.Services.AddValidatorsFromAssemblyContaining<CreateArtistRequestDTO>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateArtistRequestDTO>();
-builder.Services.AddValidatorsFromAssemblyContaining<CreateArtistRequestDTO>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateCityRequestDTO>();
+builder.Services.AddValidatorsFromAssemblyContaining<UpdateCityRequestDTO>();
+builder.Services.AddValidatorsFromAssemblyContaining<CreateCustomerRequestDTO>();
 
 var app = builder.Build();
 
