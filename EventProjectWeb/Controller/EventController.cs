@@ -57,8 +57,7 @@ namespace EventProjectWeb.Controllers
             {
                 Name = model.Name,
                 DetailedDescription = model.DetailedDescription,
-                Address = model.Address,
-                GoogleMapLink=model.GoogleMapLink
+                Address = model.Address
             };
 
             _db.Events.Add(entity);
@@ -87,7 +86,7 @@ namespace EventProjectWeb.Controllers
         }
 
 
-        [HttpPut("{id}")] // api/event/{id}
+        [HttpPut("{id}")] 
         public IActionResult Update(int id, UpdateEventRequestDto model)
         {
             var _event = _db.Events.FirstOrDefault(x => x.Id == id && x.IsDeleted == false);

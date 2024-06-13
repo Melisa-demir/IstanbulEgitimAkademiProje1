@@ -13,6 +13,9 @@ namespace EventProjectWeb.Model.Validations.Event
 
             RuleFor(x => x.Address)
                 .NotEmpty().WithMessage("The Address field cannot be empty.");
+
+            RuleFor(x => x.DetailedDescription)
+                .NotEmpty().WithMessage("The Detailed Description field cannot be empty.");
         }
     }
 }

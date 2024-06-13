@@ -825,3 +825,6 @@ C:\Users\MELİSA\Desktop\İstanbulEgitimAkademiProje12\EventProjectWeb\bin\Debug
 C:\Users\Lenovo\source\repos\IstanbulEgitimAkademiProje1\EventProjectWeb\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Lenovo\source\repos\IstanbulEgitimAkademiProje1\EventProjectWeb\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 C:\Users\Lenovo\source\repos\IstanbulEgitimAkademiProje1\EventProjectWeb\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Ebru Ünlü\Source\Repos\IstanbulEgitimAkademiProje1\EventProjectWeb\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Ebru Ünlü\Source\Repos\IstanbulEgitimAkademiProje1\EventProjectWeb\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Ebru Ünlü\Source\Repos\IstanbulEgitimAkademiProje1\EventProjectWeb\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
