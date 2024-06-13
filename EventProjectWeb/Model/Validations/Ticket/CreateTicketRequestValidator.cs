@@ -7,7 +7,11 @@ namespace EventProjectWeb.Model.Validations.Ticket
     {
         public CreateTicketRequestValidator()
         {
-                
+            RuleFor(x => x.TicketType)
+                .NotEmpty().WithMessage("The TicketType field cannot be empty.");
+
+            RuleFor(x => x.Price)
+                .NotEmpty().WithMessage("The Price field cannot be empty.");
         }
     }
 }
