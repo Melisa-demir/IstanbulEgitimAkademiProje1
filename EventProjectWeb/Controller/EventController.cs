@@ -10,6 +10,8 @@ namespace EventProjectWeb.Controllers
     public class EventController : ControllerBase
     {
         private readonly EventProjectContext _db;
+        private int eventId;
+
         public EventController(EventProjectContext db)
         {
             _db = db;
@@ -65,15 +67,24 @@ namespace EventProjectWeb.Controllers
                 imagepaths.Add(image.FileName);
             }
 
-            //var entity = new Event
-            //{
-            //    Name = model.Name,
-            //    DetailedDescription = model.DetailedDescription,
-            //    Address = model.Address
-            //};
+            var entity = new Event
+            {
+                Name = model.Name,
+                DetailedDescription = model.DetailedDescription,
+                Address = model.Address
+            };
 
-            //_db.Events.Add(entity);
-            //_db.SaveChanges();
+            _db.Events.Add(entity);
+            _db.SaveChanges();
+
+            foreach (var item in imagepaths)
+            {
+                ActivityEventImages activityEventImages = new ActivityEventImages();
+                activityEventImages.EventId = eventId;
+                activityEventImages.ImagePath= item;    
+                _db.Activities.Add(activityEventImages);
+            }
+            _db.SaveChanges();
 
             return Ok(model);
         }
@@ -95,7 +106,6 @@ namespace EventProjectWeb.Controllers
                 return Ok();
             }
         }
-
 
         [HttpPut("{id}")]
         public IActionResult Update(int id, UpdateEventRequestDto model)

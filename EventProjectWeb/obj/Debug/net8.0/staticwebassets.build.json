@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iPxZ6IFQrENLXTAoe1LP+ZZwgMvYqKNspvX65bual5o=",
+  "Hash": "YmiItIbMK1v4S8d/9IOae/6CSucqcx1yCaNQKolYkVU=",
   "Source": "EventProjectWeb",
   "BasePath": "_content/EventProjectWeb",
   "Mode": "Default",
@@ -15,5 +15,25 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\MELİSA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\wwwroot\\images\\tarkan.jpg",
+      "SourceId": "EventProjectWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MELİSA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\wwwroot\\",
+      "BasePath": "_content/EventProjectWeb",
+      "RelativePath": "images/tarkan.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\tarkan.jpg"
+    }
+  ]
 }
