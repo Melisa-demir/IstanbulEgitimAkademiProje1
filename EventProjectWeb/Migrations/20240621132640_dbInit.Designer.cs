@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EventProjectWeb.Migrations
 {
     [DbContext(typeof(EventProjectContext))]
-    [Migration("20240608131242_changedemailnullable")]
-    partial class changedemailnullable
+    [Migration("20240621132640_dbInit")]
+    partial class dbInit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,31 @@ namespace EventProjectWeb.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("EventProjectWeb.Model.ORM.ActivityEventImages", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("EventId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("EventId");
+
+                    b.ToTable("Activities");
+                });
 
             modelBuilder.Entity("EventProjectWeb.Model.ORM.Artist", b =>
                 {
@@ -59,7 +84,7 @@ namespace EventProjectWeb.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("EventId")
+                    b.Property<int?>("EventId")
                         .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
@@ -121,7 +146,6 @@ namespace EventProjectWeb.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -140,10 +164,10 @@ namespace EventProjectWeb.Migrations
                     b.Property<string>("Address")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ArtistId")
+                    b.Property<int?>("ArtistId")
                         .HasColumnType("int");
 
-                    b.Property<int>("CityId")
+                    b.Property<int?>("CityId")
                         .HasColumnType("int");
 
                     b.Property<string>("DetailedDescription")
@@ -151,7 +175,6 @@ namespace EventProjectWeb.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("GoogleMapLink")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsDeleted")
@@ -161,10 +184,7 @@ namespace EventProjectWeb.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("TickedId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("TicketId")
+                    b.Property<int?>("TicketId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -173,7 +193,7 @@ namespace EventProjectWeb.Migrations
 
                     b.HasIndex("CityId");
 
-                    b.HasIndex("TickedId");
+                    b.HasIndex("TicketId");
 
                     b.ToTable("Events");
                 });
@@ -186,10 +206,10 @@ namespace EventProjectWeb.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<bool>("Availability")
+                    b.Property<bool?>("Availability")
                         .HasColumnType("bit");
 
-                    b.Property<int>("CustomerId")
+                    b.Property<int?>("CustomerId")
                         .HasColumnType("int");
 
                     b.Property<bool>("IsDeleted")
@@ -198,16 +218,16 @@ namespace EventProjectWeb.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("Quantity")
+                    b.Property<int?>("Quantity")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("SaleEndDate")
+                    b.Property<DateTime?>("SaleEndDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("SaleStartDate")
+                    b.Property<DateTime?>("SaleStartDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("SeatNo")
+                    b.Property<int?>("SeatNo")
                         .HasColumnType("int");
 
                     b.Property<string>("TicketType")
@@ -221,7 +241,7 @@ namespace EventProjectWeb.Migrations
                     b.ToTable("Tickets");
                 });
 
-            modelBuilder.Entity("EventProjectWeb.Model.ORM.Vanue", b =>
+            modelBuilder.Entity("EventProjectWeb.Model.ORM.Venue", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -245,16 +265,25 @@ namespace EventProjectWeb.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Vanues");
+                    b.ToTable("Venues");
+                });
+
+            modelBuilder.Entity("EventProjectWeb.Model.ORM.ActivityEventImages", b =>
+                {
+                    b.HasOne("EventProjectWeb.Model.ORM.Event", "Event")
+                        .WithMany("Activities")
+                        .HasForeignKey("EventId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Event");
                 });
 
             modelBuilder.Entity("EventProjectWeb.Model.ORM.Category", b =>
                 {
                     b.HasOne("EventProjectWeb.Model.ORM.Event", "Event")
                         .WithMany()
-                        .HasForeignKey("EventId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("EventId");
 
                     b.Navigation("Event");
                 });
@@ -263,21 +292,15 @@ namespace EventProjectWeb.Migrations
                 {
                     b.HasOne("EventProjectWeb.Model.ORM.Artist", "Artist")
                         .WithMany()
-                        .HasForeignKey("ArtistId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ArtistId");
 
                     b.HasOne("EventProjectWeb.Model.ORM.City", "City")
                         .WithMany()
-                        .HasForeignKey("CityId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CityId");
 
                     b.HasOne("EventProjectWeb.Model.ORM.Ticket", "Ticket")
                         .WithMany()
-                        .HasForeignKey("TickedId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("TicketId");
 
                     b.Navigation("Artist");
 
@@ -290,11 +313,14 @@ namespace EventProjectWeb.Migrations
                 {
                     b.HasOne("EventProjectWeb.Model.ORM.Customer", "Customer")
                         .WithMany()
-                        .HasForeignKey("CustomerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CustomerId");
 
                     b.Navigation("Customer");
+                });
+
+            modelBuilder.Entity("EventProjectWeb.Model.ORM.Event", b =>
+                {
+                    b.Navigation("Activities");
                 });
 #pragma warning restore 612, 618
         }

@@ -53,20 +53,31 @@ namespace EventProjectWeb.Controllers
         [HttpPost]
         public IActionResult Post(CreateEventRequestDto model)
         {
-            var entity = new Event
+            List<string> imagepaths = new List<string>();
+            foreach (var image in model.Images)
             {
-                Name = model.Name,
-                DetailedDescription = model.DetailedDescription,
-                Address = model.Address
-            };
+                
+                string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", image.FileName);
+                using (var stream = new FileStream(path, FileMode.Create))
+                {
+                    image.CopyTo(stream);
+                }
+                imagepaths.Add(image.FileName);
+            }
 
-            _db.Events.Add(entity);
-            _db.SaveChanges();
+            //var entity = new Event
+            //{
+            //    Name = model.Name,
+            //    DetailedDescription = model.DetailedDescription,
+            //    Address = model.Address
+            //};
+
+            //_db.Events.Add(entity);
+            //_db.SaveChanges();
 
             return Ok(model);
         }
 
-        
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
@@ -86,7 +97,7 @@ namespace EventProjectWeb.Controllers
         }
 
 
-        [HttpPut("{id}")] 
+        [HttpPut("{id}")]
         public IActionResult Update(int id, UpdateEventRequestDto model)
         {
             var _event = _db.Events.FirstOrDefault(x => x.Id == id && x.IsDeleted == false);
