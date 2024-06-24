@@ -1,6 +1,7 @@
 ﻿using EventProjectWeb.DTO.Category;
 using EventProjectWeb.DTO.City;
 using EventProjectWeb.Model.ORM;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -51,7 +52,7 @@ namespace EventProjectWeb.Controller
                 return Ok(model);
             }
         }
-
+        [Authorize]
         [HttpPost]
         public IActionResult Post(CreateCategoryRequestDTO model)
         {

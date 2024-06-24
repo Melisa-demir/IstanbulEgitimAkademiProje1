@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EventProjectWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2f98af02cc508889adab38cfcf44696ff5d811d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b78ca29a0b9f5dcc53d0e2de22bef60eae02030")]
 [assembly: System.Reflection.AssemblyProductAttribute("EventProjectWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EventProjectWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

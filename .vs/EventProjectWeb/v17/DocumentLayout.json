@@ -1,38 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\",
+  "WorkspaceRootPath": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\istanbulegitimakademi\\eventprojectweb\\controller\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\is-user5\\desktop\\istanbulegitimakademiproje1\\eventprojectweb\\controller\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\controller\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\controller\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\is-user5\\desktop\\istanbulegitimakademiproje1\\eventprojectweb\\model\\auth\\eventtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\auth\\eventtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\controller\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\controller\\venuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\model\\auth\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\auth\\jwttoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\dto\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\auth\\loginrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\model\\orm\\eventprojectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\orm\\eventprojectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\model\\orm\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\orm\\adminuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\eventprojectweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\eventprojectweb.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\controller\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\controller\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\istanbulegitimakademi\\eventprojectweb\\dto\\event\\createeventrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\dto\\event\\createeventrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\event\\createeventrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\istanbulegitimakademi\\eventprojectweb\\dto\\activity\\createactivityrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\dto\\activity\\createactivityrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\dto\\activity\\createactivityrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\istanbulegitimakademi\\eventprojectweb\\model\\orm\\activityeventimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\model\\orm\\activityeventimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\orm\\activityeventimages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\istanbulegitimakademi\\eventprojectweb\\controller\\activityeventsimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\controller\\activityeventsimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\controller\\activityeventsimagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Migrations\\20240621132640_dbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EventProjectWeb\\Migrations\\20240621132640_dbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\istanbulegitimakademi\\eventprojectweb\\model\\orm\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\eventprojectweb\\model\\orm\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\model\\orm\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|c:\\users\\mel\u0130sa\\desktop\\istanbulegitimakademi\\eventprojectweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:eventprojectweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Migrations\\20240621132640_dbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:EventProjectWeb\\Migrations\\20240621132640_dbInit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Migrations\\20240624074521_addCreatedAdminUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{574B749F-8DD9-444B-A6B2-6008D020FD71}|EventProjectWeb\\EventProjectWeb.csproj|solutionrelative:EventProjectWeb\\Migrations\\20240624074521_addCreatedAdminUserTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,8 +90,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{99b8fa2f-ab90-4f57-9c32-949f146f1914}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -59,106 +123,246 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "EventController.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Controller\\EventController.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\EventController.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Controller\\EventController.cs",
-              "RelativeToolTip": "EventProjectWeb\\Controller\\EventController.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAowFsAAAAcAAAA",
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\CategoryController.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\CategoryController.cs",
+              "RelativeToolTip": "EventProjectWeb\\Controller\\CategoryController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:29:44.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateActivityRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\DTO\\Activity\\CreateActivityRequestDTO.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Activity\\CreateActivityRequestDTO.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\DTO\\Activity\\CreateActivityRequestDTO.cs",
-              "RelativeToolTip": "EventProjectWeb\\DTO\\Activity\\CreateActivityRequestDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T14:08:41.296Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ActivityEventImages.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Model\\ORM\\ActivityEventImages.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\ActivityEventImages.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Model\\ORM\\ActivityEventImages.cs",
-              "RelativeToolTip": "EventProjectWeb\\Model\\ORM\\ActivityEventImages.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:05:03.616Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateEventRequestDto.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
-              "RelativeToolTip": "EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAGAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:25:35.412Z",
+              "WhenOpened": "2024-06-24T08:46:16.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ActivityEventsImagesController.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Controller\\ActivityEventsImagesController.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\ActivityEventsImagesController.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Controller\\ActivityEventsImagesController.cs",
-              "RelativeToolTip": "EventProjectWeb\\Controller\\ActivityEventsImagesController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA6AAAA",
+              "Title": "VenueController.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\VenueController.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\VenueController.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\VenueController.cs",
+              "RelativeToolTip": "EventProjectWeb\\Controller\\VenueController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:04:37.029Z",
+              "WhenOpened": "2024-06-24T08:33:46.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EventTokenHandler.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\Auth\\EventTokenHandler.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\Auth\\EventTokenHandler.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\Auth\\EventTokenHandler.cs",
+              "RelativeToolTip": "EventProjectWeb\\Model\\Auth\\EventTokenHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAACSAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T08:01:49.564Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "20240621132640_dbInit.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Migrations\\20240621132640_dbInit.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\Migrations\\20240621132640_dbInit.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Migrations\\20240621132640_dbInit.cs",
-              "RelativeToolTip": "EventProjectWeb\\Migrations\\20240621132640_dbInit.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "JWTToken.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\Auth\\JWTToken.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\Auth\\JWTToken.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\Auth\\JWTToken.cs",
+              "RelativeToolTip": "EventProjectWeb\\Model\\Auth\\JWTToken.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:26:40.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-24T08:00:04.022Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Model\\ORM\\Event.cs",
-              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\Event.cs",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\Model\\ORM\\Event.cs",
-              "RelativeToolTip": "EventProjectWeb\\Model\\ORM\\Event.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Title": "LoginRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Auth\\LoginRequestDTO.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Auth\\LoginRequestDTO.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Auth\\LoginRequestDTO.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\Auth\\LoginRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-21T13:24:34.075Z",
+              "WhenOpened": "2024-06-24T07:54:14.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\AuthController.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\AuthController.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\AuthController.cs",
+              "RelativeToolTip": "EventProjectWeb\\Controller\\AuthController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAgwB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T07:50:42.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240624074521_addCreatedAdminUserTable.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Migrations\\20240624074521_addCreatedAdminUserTable.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Migrations\\20240624074521_addCreatedAdminUserTable.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Migrations\\20240624074521_addCreatedAdminUserTable.cs",
+              "RelativeToolTip": "EventProjectWeb\\Migrations\\20240624074521_addCreatedAdminUserTable.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T07:45:21.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "EventProjectWeb\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\appsettings.Development.json",
+              "RelativeToolTip": "EventProjectWeb\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-24T07:44:44.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Program.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Program.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Program.cs",
+              "RelativeToolTip": "EventProjectWeb\\Program.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAAADYAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T07:11:15.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "EventProjectWeb\\appsettings.json",
-              "ToolTip": "C:\\Users\\MEL\u0130SA\\Desktop\\IstanbulEgitimAkademi\\EventProjectWeb\\appsettings.json",
-              "RelativeToolTip": "EventProjectWeb\\appsettings.json",
+              "Title": "EventProjectContext.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\EventProjectContext.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\EventProjectContext.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\EventProjectContext.cs",
+              "RelativeToolTip": "EventProjectWeb\\Model\\ORM\\EventProjectContext.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T07:42:23.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminUser.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\AdminUser.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\AdminUser.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\AdminUser.cs",
+              "RelativeToolTip": "EventProjectWeb\\Model\\ORM\\AdminUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-24T07:41:53.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventProjectWeb",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\EventProjectWeb.csproj",
+              "RelativeDocumentMoniker": "EventProjectWeb\\EventProjectWeb.csproj",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\EventProjectWeb.csproj",
+              "RelativeToolTip": "EventProjectWeb\\EventProjectWeb.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-24T07:09:34.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventController.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\EventController.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\EventController.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\EventController.cs",
+              "RelativeToolTip": "EventProjectWeb\\Controller\\EventController.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAowFsAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:29:44.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateActivityRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Activity\\CreateActivityRequestDTO.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Activity\\CreateActivityRequestDTO.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Activity\\CreateActivityRequestDTO.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\Activity\\CreateActivityRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T14:08:41.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ActivityEventImages.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\ActivityEventImages.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\ActivityEventImages.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\ActivityEventImages.cs",
+              "RelativeToolTip": "EventProjectWeb\\Model\\ORM\\ActivityEventImages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:05:03.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "EventProjectWeb\\appsettings.json",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\appsettings.json",
+              "RelativeToolTip": "EventProjectWeb\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAB/AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-21T13:20:57.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-21T13:20:57.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CreateEventRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
+              "RelativeToolTip": "EventProjectWeb\\DTO\\Event\\CreateEventRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:25:35.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ActivityEventsImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\ActivityEventsImagesController.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Controller\\ActivityEventsImagesController.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Controller\\ActivityEventsImagesController.cs",
+              "RelativeToolTip": "EventProjectWeb\\Controller\\ActivityEventsImagesController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:04:37.029Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240621132640_dbInit.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Migrations\\20240621132640_dbInit.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Migrations\\20240621132640_dbInit.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Migrations\\20240621132640_dbInit.cs",
+              "RelativeToolTip": "EventProjectWeb\\Migrations\\20240621132640_dbInit.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:26:40.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\Event.cs",
+              "RelativeDocumentMoniker": "EventProjectWeb\\Model\\ORM\\Event.cs",
+              "ToolTip": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\Model\\ORM\\Event.cs",
+              "RelativeToolTip": "EventProjectWeb\\Model\\ORM\\Event.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-21T13:24:34.075Z"
             }
           ]
         }

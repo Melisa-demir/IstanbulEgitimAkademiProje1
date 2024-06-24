@@ -25,5 +25,6 @@ namespace EventProjectWeb.Model.ORM
 
         public DbSet<Venue> Venues { get; set; }
         public DbSet<ActivityEventImages> Activities { get; set; }
+        public DbSet<AdminUser> AdminUsers { get; set; }
     }
 }

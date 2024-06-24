@@ -7,6 +7,9 @@ using FluentValidation;
 using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -31,6 +34,22 @@ builder.Services.AddValidatorsFromAssemblyContaining<UpdateCustomerRequestDTO>()
 builder.Services.AddValidatorsFromAssemblyContaining<CreateCategoryRequestDTO>();
 builder.Services.AddValidatorsFromAssemblyContaining<UpdateCategoryRequestDto>();
 
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+    {
+        ValidateIssuer = true,
+        ValidateAudience = true,
+        ValidIssuer = "meliisaademir@gmail.com",
+        ValidAudience ="melisa.demir@gmail.com",
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes
+        ("EventApiAuthKeyPasswordsasdafaafafadaf")),
+        ValidateLifetime=true,
+        ClockSkew = TimeSpan.Zero
+
+    });
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -42,6 +61,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
