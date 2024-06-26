@@ -59,6 +59,7 @@ namespace EventProjectWeb.Controller
             var entity = new Category
             {
                 Name = model.Name,
+                
 
             };
 

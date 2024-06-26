@@ -58,6 +58,7 @@ namespace EventProjectWeb.Controller
                 CustomerName=model.CustomerName,
                 Email =model.Email,
                 Address=model.Address
+                
             };
             _db.Customers.Add(entity);
             _db.SaveChanges();

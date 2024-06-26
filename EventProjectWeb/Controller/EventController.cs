@@ -2,6 +2,9 @@
 using EventProjectWeb.Model.ORM;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 
 namespace EventProjectWeb.Controllers
 {
@@ -10,7 +13,6 @@ namespace EventProjectWeb.Controllers
     public class EventController : ControllerBase
     {
         private readonly EventProjectContext _db;
-        private int eventId;
 
         public EventController(EventProjectContext db)
         {
@@ -20,14 +22,17 @@ namespace EventProjectWeb.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            List<GetAllEventsResponseDto> model = _db.Events.Where(x => x.IsDeleted == false).Select(x => new GetAllEventsResponseDto
-            {
-                Id = x.Id,
-                Name = x.Name,
-                Address = x.Address,
-                DetailedDescription = x.DetailedDescription,
-                GoogleMapLink = x.GoogleMapLink
-            }).ToList();
+            List<GetAllEventsResponseDto> model = _db.Events
+                .Where(x => !x.IsDeleted)
+                .Select(x => new GetAllEventsResponseDto
+                {
+                    Id = x.Id,
+                    Name = x.Name,
+                    Address = x.Address,
+                    DetailedDescription = x.DetailedDescription,
+                    GoogleMapLink = x.GoogleMapLink
+                })
+                .ToList();
 
             return Ok(model);
         }
@@ -35,19 +40,21 @@ namespace EventProjectWeb.Controllers
         [HttpGet("{id}")]
         public IActionResult Get(int id)
         {
-            var _event = _db.Events.FirstOrDefault(x => x.Id == id && x.IsDeleted == false);
+            var _event = _db.Events.FirstOrDefault(x => x.Id == id && !x.IsDeleted);
 
             if (_event == null)
             {
                 return NotFound();
             }
 
-            GetEventResponseDto model = new GetEventResponseDto();
-            model.Id = _event.Id;
-            model.Name = _event.Name;
-            model.Address = _event.Address;
-            model.DetailedDescription = _event.DetailedDescription;
-            model.GoogleMapLink = _event.GoogleMapLink;
+            GetEventResponseDto model = new GetEventResponseDto
+            {
+                Id = _event.Id,
+                Name = _event.Name,
+                Address = _event.Address,
+                DetailedDescription = _event.DetailedDescription,
+                GoogleMapLink = _event.GoogleMapLink
+            };
 
             return Ok(model);
         }
@@ -55,16 +62,16 @@ namespace EventProjectWeb.Controllers
         [HttpPost]
         public IActionResult Post(CreateEventRequestDto model)
         {
-            List<string> imagepaths = new List<string>();
+            List<string> imagePaths = new List<string>();
+
             foreach (var image in model.Images)
             {
-                
                 string path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/images", image.FileName);
                 using (var stream = new FileStream(path, FileMode.Create))
                 {
                     image.CopyTo(stream);
                 }
-                imagepaths.Add(image.FileName);
+                imagePaths.Add(image.FileName);
             }
 
             var entity = new Event
@@ -77,13 +84,17 @@ namespace EventProjectWeb.Controllers
             _db.Events.Add(entity);
             _db.SaveChanges();
 
-            foreach (var item in imagepaths)
+            foreach (var imagePath in imagePaths)
             {
-                ActivityEventImages activityEventImages = new ActivityEventImages();
-                activityEventImages.EventId = eventId;
-                activityEventImages.ImagePath= item;    
-                _db.Activities.Add(activityEventImages);
+                var eventImage = new ActivityEventImages 
+                {
+                    EventId = entity.Id,
+                    ImagePath = imagePath
+                };
+
+                _db.Activities.Add(eventImage);
             }
+
             _db.SaveChanges();
 
             return Ok(model);
@@ -98,31 +109,27 @@ namespace EventProjectWeb.Controllers
             {
                 return NotFound();
             }
-            else
-            {
-                entity.IsDeleted = true;
-                _db.SaveChanges();
 
-                return Ok();
-            }
+            entity.IsDeleted = true;
+            _db.SaveChanges();
+
+            return Ok();
         }
 
         [HttpPut("{id}")]
         public IActionResult Update(int id, UpdateEventRequestDto model)
         {
-            var _event = _db.Events.FirstOrDefault(x => x.Id == id && x.IsDeleted == false);
+            var _event = _db.Events.FirstOrDefault(x => x.Id == id && !x.IsDeleted);
 
             if (_event == null)
             {
                 return NotFound();
             }
-            else
-            {
-                _event.Name = model.Name;
-                _db.SaveChanges();
 
-                return Ok(model);
-            }
+            _event.Name = model.Name;
+            _db.SaveChanges();
+
+            return Ok(model);
         }
     }
 }
