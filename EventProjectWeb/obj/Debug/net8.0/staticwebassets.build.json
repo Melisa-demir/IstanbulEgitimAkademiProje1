@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vE6W/b8yqc0A7BZ7cdvfeRaz5sn0nAmx6y1LKOzJqP4=",
+  "Hash": "fywR2KNsvXjJobfc36VXsgf+rEdhk+YzwAVnl1MATdw=",
   "Source": "EventProjectWeb",
   "BasePath": "_content/EventProjectWeb",
   "Mode": "Default",
@@ -10,17 +10,36 @@
     {
       "Name": "EventProjectWeb\\wwwroot",
       "Source": "EventProjectWeb",
-      "ContentRoot": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MELİSA\\Desktop\\IstanbulEgitimAkademi1\\EventProjectWeb\\wwwroot\\",
       "BasePath": "_content/EventProjectWeb",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\wwwroot\\images\\Hakan.jpg",
+      "Identity": "C:\\Users\\MELİSA\\Desktop\\IstanbulEgitimAkademi1\\EventProjectWeb\\wwwroot\\images\\Ajda Pekkan.jpg",
       "SourceId": "EventProjectWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MELİSA\\Desktop\\IstanbulEgitimAkademi1\\EventProjectWeb\\wwwroot\\",
+      "BasePath": "_content/EventProjectWeb",
+      "RelativePath": "images/Ajda Pekkan.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Ajda Pekkan.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MELİSA\\Desktop\\IstanbulEgitimAkademi1\\EventProjectWeb\\wwwroot\\images\\Hakan.jpg",
+      "SourceId": "EventProjectWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MELİSA\\Desktop\\IstanbulEgitimAkademi1\\EventProjectWeb\\wwwroot\\",
       "BasePath": "_content/EventProjectWeb",
       "RelativePath": "images/Hakan.jpg",
       "AssetKind": "All",
@@ -36,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Hakan.jpg"
     },
     {
-      "Identity": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\wwwroot\\images\\tarkan.jpg",
+      "Identity": "C:\\Users\\MELİSA\\Desktop\\IstanbulEgitimAkademi1\\EventProjectWeb\\wwwroot\\images\\tarkan.jpg",
       "SourceId": "EventProjectWeb",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\is-user5\\Desktop\\IstanbulEgitimAkademiProje1\\EventProjectWeb\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MELİSA\\Desktop\\IstanbulEgitimAkademi1\\EventProjectWeb\\wwwroot\\",
       "BasePath": "_content/EventProjectWeb",
       "RelativePath": "images/tarkan.jpg",
       "AssetKind": "All",

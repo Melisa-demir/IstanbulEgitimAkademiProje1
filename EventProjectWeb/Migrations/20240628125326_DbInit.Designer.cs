@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EventProjectWeb.Migrations
 {
     [DbContext(typeof(EventProjectContext))]
-    [Migration("20240624074521_addCreatedAdminUserTable")]
-    partial class addCreatedAdminUserTable
+    [Migration("20240628125326_DbInit")]
+    partial class DbInit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

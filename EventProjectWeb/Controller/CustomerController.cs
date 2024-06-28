@@ -47,7 +47,7 @@ namespace EventProjectWeb.Controller
                 Phone = customer.Phone,
                 Address = customer.Address
             };
-            return Ok();
+            return Ok(model);
         }
         [HttpPost]
         public IActionResult Post(CreateCustomerRequestDTO model)
@@ -62,7 +62,7 @@ namespace EventProjectWeb.Controller
             };
             _db.Customers.Add(entity);
             _db.SaveChanges();
-            return Ok();
+            return Ok(entity);
 
         }
 
@@ -91,12 +91,11 @@ namespace EventProjectWeb.Controller
 
             entity.CustomerName = model.CustomerName;
             entity.Email = model.Email;
-            entity.Password = model.Password;
             entity.Phone = model.Phone;
             entity.Address = model.Address;
 
             _db.SaveChanges();
-            return Ok();
+            return Ok(model);
         }
     }
 }

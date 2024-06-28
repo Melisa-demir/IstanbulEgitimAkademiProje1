@@ -5,7 +5,6 @@ namespace EventProjectWeb.Model.DTO.Artist
     {
         public int Id { get; set; }
         public string ArtistName { get; set; }
-        public string Bio { get; set; }
-        public string ImageURL { get; set; }
+        
     }
 }

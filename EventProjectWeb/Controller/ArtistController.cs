@@ -24,8 +24,6 @@ namespace EventProjectWeb.Controllers
             {
                 Id = x.Id,
                 ArtistName = x.ArtistName,
-                Bio = x.Bio,
-                ImageURL = x.ImageURL
             }).ToList();
             return Ok(artist);
         }
@@ -44,8 +42,6 @@ namespace EventProjectWeb.Controllers
                 {
                     Id = entity.Id,
                     ArtistName = entity.ArtistName,
-                    Bio = entity.Bio,
-                    ImageURL = entity.ImageURL
                 };
                 return Ok(model);
 
@@ -89,10 +85,8 @@ namespace EventProjectWeb.Controllers
             else
             {
                 entity.ArtistName = model.ArtistName;
-                entity.Bio = model.Bio;
-                entity.ImageURL = model.ImageURL;
                 _db.SaveChanges();
-                return Ok();
+                return Ok(model);
             }
         }
     }

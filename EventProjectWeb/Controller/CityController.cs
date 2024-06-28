@@ -80,7 +80,7 @@ namespace EventProjectWeb.Controller
             }
             entity.Name = model.Name;
             _db.SaveChanges();
-            return Ok();
+            return Ok(model);
         }
     }
 }
