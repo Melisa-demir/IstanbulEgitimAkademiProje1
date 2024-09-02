@@ -52,7 +52,7 @@ namespace EventProjectWeb.Controller
                 return Ok(model);
             }
         }
-        [Authorize]
+        //[Authorize]
         [HttpPost]
         public IActionResult Post(CreateCategoryRequestDTO model)
         {
